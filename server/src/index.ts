@@ -22,7 +22,7 @@ app.use(cors());
 app.use("/dashboard", dashboardRoutes); // http://localhost:8000/dashboard
 
 /* SERVER */
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 8000;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
